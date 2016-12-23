@@ -1,0 +1,107 @@
+@media screen and (max-width:1920px){
+body{
+		background: url('https://img.saveur-biere.com/chritmas_landing/2016-11-14_14_07_37_chritmas_landingbg.png');
+		background-size: 140%;
+		background-position: -150px 150px;
+}
+
+.liste{
+	background-color: #E1DCD2;
+	display: flex;
+	justify-content: flex-start;
+	font-size:12px;
+
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.secondeUl{
+	justify-content: center;
+	font-family: Arial;
+	margin-left: -3%;
+}
+li{
+	margin-left: 2.2%;
+	margin-right: 2.2%;
+}
+.li{
+	margin-left: 1%;
+	margin-right: 1%;
+	color:grey;
+}
+.liDeux{
+	font-size: 17px;
+	margin-right: 2%;
+	margin-left: 2%;
+
+}
+.champ{
+	display: flex;
+	flex-direction: row;
+}
+.champDeux{
+	display: flex;
+	flex-direction: row;
+}
+.pdroit{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.pGauche{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.imgCenter{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.deco{
+	display: flex;
+	flex-direction: row;
+}
+.decoGauche{
+
+}
+.prix{
+	background-color: black;
+	color:white;
+	font-size: 30px;
+}
+.decoDroite{
+	margin-left:85px;
+	background-color: black;
+	color:white;
+	padding-left: 25px;
+	padding-right: 50px;
+}
+.colorWhite{
+	border-style:solid;
+	border-width: 1px;
+	border-color: darkgrey;
+	background-color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	margin-left: 7%;
+	margin-right: 1.2%;
+}
+.colorWhiteDeux{
+	flex-direction: column;
+	border-style:solid;
+	border-width: 1px;
+	border-color: darkgrey;
+	background-color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+}
+
+@media screen and (max-width:760px){
+	.champDeux{
+		display: flex;
+		flex-direction: column;
+	}
+}
